@@ -1,0 +1,6 @@
+scoreboards:
+  world_name:
+    name: 'Title'
+    '2': 'Line 1'
+    '1': 'Line 2'
+    '0': 'Line 3'

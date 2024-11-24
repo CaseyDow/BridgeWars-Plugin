@@ -1,0 +1,23 @@
+name: SolarBridgeWars
+version: 1.0.0
+author: solarlego
+main: me.solarlego.bridgewars.BridgeWars
+depend:
+  - SolarMain
+commands:
+  play:
+    usage: "\u00a7cUsage: /<command> <game>"
+    description: Transfers the sender into a game
+    aliases: join
+  end:
+    usage: "\u00A7cUsage: /<command>"
+    description: Ends the current game
+    permission: solarlego.command.end
+  teams:
+    usage: "\u00A7cUsage: /<command>"
+    description: Displays the teams menu in BridgeWars
+    aliases: team
+  tools:
+    usage: "\u00A7cUsage: /<command>"
+    description: Displays the tools menu in BridgeWars
+    aliases: tool
